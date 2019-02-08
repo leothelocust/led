@@ -9,7 +9,7 @@ endif
 
 build_and_run: clean build run
 
-.PHONY : build_and_run build run clean test
+.PHONY : build_and_run build run clean testfile
 
 build :
 	@echo "-> Building"
@@ -25,7 +25,7 @@ clean :
 	@echo "-> Cleaning up"
 	@-rm editor
 
-test :
+testfile :
 	@echo -e "-> Generating test file"
 	@echo -e "This is a line.\nThis is another line.\n\n\nThis is the end." > tmp.txt
 	@$(CAT) tmp.txt

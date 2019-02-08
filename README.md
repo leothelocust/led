@@ -8,8 +8,9 @@ This project is in VERY early stages and you could very likely destroy any file 
     git clone https://github.com/leothelocust/led.git
     cd led/
     make testfile
-    make
-    
+    make build
+    ./editor tmp.txt
+
 ## Supported Key Bindings
 
 |Key Binding|Action|
