@@ -1,5 +1,5 @@
 # LED
-LED is a lightweight editor written using Go.
+LED is a lightweight text editor written using Go.
 
 ## Disclaimer
 This project is in VERY early stages and you could very likely destroy any file you open with it. _SO USE WITH CAUTION!_
@@ -9,7 +9,7 @@ This project is in VERY early stages and you could very likely destroy any file 
     cd led/
     make testfile
     make build
-    ./editor tmp.txt
+    ./led tmp.txt
 
 ## Supported Key Bindings
 
