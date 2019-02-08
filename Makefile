@@ -13,17 +13,17 @@ build_and_run: clean build run
 
 build :
 	@echo "-> Building"
-	@cd ~/go/src/editor/utils/; go build .; cd ..
+	@cd utils/; go build .; cd ..
 	@go build .
 	@echo "->   Done"
 
 run :
 	@echo "-> Running"
-	@./editor $(FILE)
+	@./led $(FILE)
 
 clean :
 	@echo "-> Cleaning up"
-	@-rm editor
+	@-rm led
 
 testfile :
 	@echo -e "-> Generating test file"
