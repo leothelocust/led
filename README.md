@@ -5,6 +5,7 @@ LED is a lightweight text editor written using Go.
 This project is in VERY early stages and you could very likely destroy any file you open with it. _SO USE WITH CAUTION!_
 
 ## Installation
+    cd ~/go/src
     git clone https://github.com/leothelocust/led.git
     cd led/
     make testfile
