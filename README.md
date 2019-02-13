@@ -12,6 +12,13 @@ This project is in VERY early stages and you could very likely destroy any file 
     make build
     ./led tmp.txt
 
+**Don't do this**
+    ln -sF $(pwd)/led /usr/local/bin/led
+
+    or
+
+    make install
+
 ## Supported Key Bindings
 
 |Key Binding|Action|
